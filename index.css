@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgray;
+
+}
+
+.container {
+    width: 1440px;
+    height: 1300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 1440px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 52px;
+    list-style-type: none;
+
+}
+
+nav a {
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #18181B;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+.prod {
+    position: relative;
+}
+
+.prod1 {
+    display: none;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: blue;
+    position: absolute;
+    padding-left: 7px;
+    line-height: 30px;
+    color: white;
+    top: 20;
+}
+
+.prod:hover .prod1 {
+    display: block;
+    transition: 1.5s;
+}
+
+nav button {
+    width: 71px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: white;
+    font-family: Lexend;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #18181B;
+}
+
+nav button:hover {
+    background-color: #4CFDC7;
+    border: none;
+    transition: 0.5s;
+}
+
+/* navbar tugadi */
+main {
+    width: 1440px;
+    height: 600px;
+    margin-top: 125px;
+    display: flex;
+    gap: 132px;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    width: 659px;
+    height: 180px;
+    color: #000000;
+    font-family: Lexend;
+    font-size: 71px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 1px;
+}
+
+main p {
+    width: 461px;
+    height: 60px;
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.10000000149011612px;
+    color: #27272A;
+    margin-top: 34px;
+}
+
+main button {
+    width: 156px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: white;
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    color: #18181B;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+main button:hover {
+    background-color: #4CFDC7;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    height: 400px;
+    padding-left: 20px;
+    border: 1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section button {
+    width: 56px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: #4CFDC7;
+    border: none;
+    font-family: Lexend;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.75px;
+    letter-spacing: 0.10000000149011612px;
+    color: #01271C;
+
+}
+
+.aud {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #A1A1AA;
+}
+
+.most {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #18181B;
+}
+
+.top {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #71717A;
+}
+
+thead,
+th {
+    border: 1px solid grey;
+    height: 100px;
+}
+
+tbody,
+td {
+    border: 1px solid grey;
+}
+
+.most1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.foiz {
+    color: red;
+}
+
+.foiz1 {
+    color: rgb(14, 232, 14);
+}
